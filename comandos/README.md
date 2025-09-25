@@ -1,7 +1,10 @@
 python -m venv venv
-. venv/bin/activate
+. venv/bin/activate (MAC/Linux)
+.\venv\Scripts\activate (Windows)
 pip install django
 django-admin startproject project .
+python manage.py startapp contact
+
 Configurar o git
 
 git config --global user.name 'Seu nome'
